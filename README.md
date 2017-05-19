@@ -89,4 +89,4 @@ https://www.w3schools.com/php/
 配布した「kadai.php」中で、書き換え指示に従って課題ページを作成し、提出すること。期限は、５月２６日。次回講義で質問があれば受け付ける。
 
 動作チェック：
-http://localhost/php-basics-???/info.php
+http://localhost/php-basics-???/kadai.php
