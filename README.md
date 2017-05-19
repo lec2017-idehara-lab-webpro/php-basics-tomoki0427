@@ -14,10 +14,10 @@ http://localhost/php-basics-???/hello.php
 
 ## HTML 中に PHP スクリプトを埋め込む
 
-```html:PHP Script
-		<?php
-PHP スクリプト
-		?>
+```
+<?php
+  PHP スクリプト
+?>
 ```
 
 一つのファイル中に何度も PHP スクリプト部分が出現してよい。スクリプト中では、大文字･小文字は区別する。
@@ -26,7 +26,7 @@ PHP スクリプト
 
 PHP の命令文は、```;``` で終了する。付け忘れると「次の行」でエラーが発生する。
 
-```html:php check
+```
 <?php
   phpinfo();
 ?>
@@ -38,7 +38,7 @@ http://localhost/php-basics-???/info.php
 
 
 ## コメント：
-```php:Comment
+```
 	// 行末までコメント
 	/*
 		コメントブロック
@@ -46,14 +46,15 @@ http://localhost/php-basics-???/info.php
 ```
 
 ## 基本型
-		```
-    integer, float, boolean, string, array, object, resource, NULL
-    ```
+```
+  integer, float, boolean, string, array, object, resource, NULL
+```
 
 ## 変数名
-		```
-    $ の後に英文字＋（任意長の英数文字の繰り返し）（英文字にはアンダースコアを含む）
-    ```
+
+```
+$ の後に英文字＋（任意長の英数文字の繰り返し）（英文字にはアンダースコアを含む）
+```
 
 PHP では、変数宣言なしに変数を使用できる。変数がすでに宣言されているかどうかを調べるには、関数 ```isset(変数名)```　を用いる。定義済み変数を未定義にするには、命令 ```unset(変数名)``` を使用する。
 
@@ -72,11 +73,12 @@ echo $var . '000';	// test000
 ```
 
 ## 型の自動変換：
-		型は代入･参照時に自動的に変換される。（注意が必要）
+
+型は代入･参照時に自動的に変換される。（注意が必要）
 
 ```php:implicit typing
-		$x = '10';
-		$y = $x + 10;	// 20
+$x = '10';
+$y = $x + 10;	// 20
 ```
 # 自習用リンク
 
